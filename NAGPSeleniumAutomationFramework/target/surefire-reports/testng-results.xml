@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="6" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-05T23:12:50 IST" name="LumaSuite" finished-at="2023-08-05T23:14:01 IST" duration-ms="71500">
+    <groups>
+      <group name="Register">
+        <method signature="LumaTestSuite.VerifyCreateAnAccountPage()[pri:7, instance:com.nagarro.automation.testSuite.LumaTestSuite@79079097]" name="VerifyCreateAnAccountPage" class="com.nagarro.automation.testSuite.LumaTestSuite"/>
+        <method signature="LumaTestSuite.VerifyRegistrationPageMandatoryfield()[pri:4, instance:com.nagarro.automation.testSuite.LumaTestSuite@79079097]" name="VerifyRegistrationPageMandatoryfield" class="com.nagarro.automation.testSuite.LumaTestSuite"/>
+      </group> <!-- Register -->
+      <group name="Search">
+        <method signature="LumaTestSuite.VerifyApplyFilter()[pri:6, instance:com.nagarro.automation.testSuite.LumaTestSuite@79079097]" name="VerifyApplyFilter" class="com.nagarro.automation.testSuite.LumaTestSuite"/>
+        <method signature="LumaTestSuite.VerifySearch()[pri:5, instance:com.nagarro.automation.testSuite.LumaTestSuite@79079097]" name="VerifySearch" class="com.nagarro.automation.testSuite.LumaTestSuite"/>
+      </group> <!-- Search -->
+      <group name="Login">
+        <method signature="LumaTestSuite.VerifyLoginWithIncorrectCred()[pri:1, instance:com.nagarro.automation.testSuite.LumaTestSuite@79079097]" name="VerifyLoginWithIncorrectCred" class="com.nagarro.automation.testSuite.LumaTestSuite"/>
+        <method signature="LumaTestSuite.VerifyLoginWithInvalidCred()[pri:2, instance:com.nagarro.automation.testSuite.LumaTestSuite@79079097]" name="VerifyLoginWithInvalidCred" class="com.nagarro.automation.testSuite.LumaTestSuite"/>
+        <method signature="LumaTestSuite.VerifyLoginWithoutCredentials()[pri:3, instance:com.nagarro.automation.testSuite.LumaTestSuite@79079097]" name="VerifyLoginWithoutCredentials" class="com.nagarro.automation.testSuite.LumaTestSuite"/>
+        <method signature="LumaTestSuite.VerifyloginPage()[pri:8, instance:com.nagarro.automation.testSuite.LumaTestSuite@79079097]" name="VerifyloginPage" class="com.nagarro.automation.testSuite.LumaTestSuite"/>
+      </group> <!-- Login -->
+      <group name="AddtoCart">
+        <method signature="LumaTestSuite.VerifyAddtoCart()[pri:9, instance:com.nagarro.automation.testSuite.LumaTestSuite@79079097]" name="VerifyAddtoCart" class="com.nagarro.automation.testSuite.LumaTestSuite"/>
+      </group> <!-- AddtoCart -->
+    </groups>
+    <test started-at="2023-08-05T23:12:50 IST" name="lumaTest" finished-at="2023-08-05T23:14:01 IST" duration-ms="71500">
+      <class name="com.nagarro.automation.testSuite.LumaTestSuite">
+        <test-method is-config="true" signature="CreateHTMLReport()[pri:0, instance:com.nagarro.automation.testSuite.LumaTestSuite@79079097]" started-at="2023-08-05T23:12:49 IST" name="CreateHTMLReport" finished-at="2023-08-05T23:12:50 IST" duration-ms="536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateHTMLReport -->
+        <test-method is-config="true" signature="invokeBrowser()[pri:0, instance:com.nagarro.automation.testSuite.LumaTestSuite@79079097]" started-at="2023-08-05T23:12:50 IST" name="invokeBrowser" finished-at="2023-08-05T23:13:03 IST" duration-ms="13399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method is-config="true" signature="CreateTest(java.lang.reflect.Method)[pri:0, instance:com.nagarro.automation.testSuite.LumaTestSuite@79079097]" started-at="2023-08-05T23:13:03 IST" name="CreateTest" finished-at="2023-08-05T23:13:03 IST" duration-ms="14" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.nagarro.automation.testSuite.LumaTestSuite.VerifyLoginWithIncorrectCred()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateTest -->
+        <test-method signature="VerifyLoginWithIncorrectCred()[pri:1, instance:com.nagarro.automation.testSuite.LumaTestSuite@79079097]" started-at="2023-08-05T23:13:03 IST" name="VerifyLoginWithIncorrectCred" description="Verify the login with incorrect credentials" finished-at="2023-08-05T23:13:08 IST" duration-ms="4667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginWithIncorrectCred -->
+        <test-method is-config="true" signature="AddResult(org.testng.ITestResult)[pri:0, instance:com.nagarro.automation.testSuite.LumaTestSuite@79079097]" started-at="2023-08-05T23:13:08 IST" name="AddResult" finished-at="2023-08-05T23:13:08 IST" duration-ms="441" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyLoginWithIncorrectCred status=SUCCESS method=LumaTestSuite.VerifyLoginWithIncorrectCred()[pri:1, instance:com.nagarro.automation.testSuite.LumaTestSuite@79079097] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddResult -->
+        <test-method signature="VerifyLoginWithInvalidCred()[pri:2, instance:com.nagarro.automation.testSuite.LumaTestSuite@79079097]" started-at="2023-08-05T23:13:08 IST" name="VerifyLoginWithInvalidCred" description="Verify the login with invalid credentials" finished-at="2023-08-05T23:13:11 IST" duration-ms="2729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginWithInvalidCred -->
+        <test-method is-config="true" signature="CreateTest(java.lang.reflect.Method)[pri:0, instance:com.nagarro.automation.testSuite.LumaTestSuite@79079097]" started-at="2023-08-05T23:13:08 IST" name="CreateTest" finished-at="2023-08-05T23:13:08 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.nagarro.automation.testSuite.LumaTestSuite.VerifyLoginWithInvalidCred() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateTest -->
+        <test-method is-config="true" signature="AddResult(org.testng.ITestResult)[pri:0, instance:com.nagarro.automation.testSuite.LumaTestSuite@79079097]" started-at="2023-08-05T23:13:11 IST" name="AddResult" finished-at="2023-08-05T23:13:11 IST" duration-ms="342" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyLoginWithInvalidCred status=SUCCESS method=LumaTestSuite.VerifyLoginWithInvalidCred()[pri:2, instance:com.nagarro.automation.testSuite.LumaTestSuite@79079097] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddResult -->
+        <test-method is-config="true" signature="CreateTest(java.lang.reflect.Method)[pri:0, instance:com.nagarro.automation.testSuite.LumaTestSuite@79079097]" started-at="2023-08-05T23:13:11 IST" name="CreateTest" finished-at="2023-08-05T23:13:11 IST" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.nagarro.automation.testSuite.LumaTestSuite.VerifyLoginWithoutCredentials()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateTest -->
+        <test-method signature="VerifyLoginWithoutCredentials()[pri:3, instance:com.nagarro.automation.testSuite.LumaTestSuite@79079097]" started-at="2023-08-05T23:13:11 IST" name="VerifyLoginWithoutCredentials" description="Verify the Mandatory fields of the login page" finished-at="2023-08-05T23:13:14 IST" duration-ms="2518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginWithoutCredentials -->
+        <test-method is-config="true" signature="AddResult(org.testng.ITestResult)[pri:0, instance:com.nagarro.automation.testSuite.LumaTestSuite@79079097]" started-at="2023-08-05T23:13:14 IST" name="AddResult" finished-at="2023-08-05T23:13:14 IST" duration-ms="255" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyLoginWithoutCredentials status=SUCCESS method=LumaTestSuite.VerifyLoginWithoutCredentials()[pri:3, instance:com.nagarro.automation.testSuite.LumaTestSuite@79079097] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddResult -->
+        <test-method is-config="true" signature="CreateTest(java.lang.reflect.Method)[pri:0, instance:com.nagarro.automation.testSuite.LumaTestSuite@79079097]" started-at="2023-08-05T23:13:14 IST" name="CreateTest" finished-at="2023-08-05T23:13:14 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.nagarro.automation.testSuite.LumaTestSuite.VerifyRegistrationPageMandatoryfield()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateTest -->
+        <test-method signature="VerifyRegistrationPageMandatoryfield()[pri:4, instance:com.nagarro.automation.testSuite.LumaTestSuite@79079097]" started-at="2023-08-05T23:13:14 IST" name="VerifyRegistrationPageMandatoryfield" description="Verify the Mandatory fields of the Registration page" finished-at="2023-08-05T23:13:17 IST" duration-ms="2592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyRegistrationPageMandatoryfield -->
+        <test-method is-config="true" signature="AddResult(org.testng.ITestResult)[pri:0, instance:com.nagarro.automation.testSuite.LumaTestSuite@79079097]" started-at="2023-08-05T23:13:17 IST" name="AddResult" finished-at="2023-08-05T23:13:17 IST" duration-ms="307" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyRegistrationPageMandatoryfield status=SUCCESS method=LumaTestSuite.VerifyRegistrationPageMandatoryfield()[pri:4, instance:com.nagarro.automation.testSuite.LumaTestSuite@79079097] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddResult -->
+        <test-method is-config="true" signature="CreateTest(java.lang.reflect.Method)[pri:0, instance:com.nagarro.automation.testSuite.LumaTestSuite@79079097]" started-at="2023-08-05T23:13:17 IST" name="CreateTest" finished-at="2023-08-05T23:13:17 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.nagarro.automation.testSuite.LumaTestSuite.VerifySearch() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateTest -->
+        <test-method signature="VerifySearch()[pri:5, instance:com.nagarro.automation.testSuite.LumaTestSuite@79079097]" started-at="2023-08-05T23:13:17 IST" name="VerifySearch" description="Verify the search functionality by search the item" finished-at="2023-08-05T23:13:22 IST" duration-ms="5327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySearch -->
+        <test-method is-config="true" signature="AddResult(org.testng.ITestResult)[pri:0, instance:com.nagarro.automation.testSuite.LumaTestSuite@79079097]" started-at="2023-08-05T23:13:22 IST" name="AddResult" finished-at="2023-08-05T23:13:23 IST" duration-ms="424" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifySearch status=SUCCESS method=LumaTestSuite.VerifySearch()[pri:5, instance:com.nagarro.automation.testSuite.LumaTestSuite@79079097] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddResult -->
+        <test-method signature="VerifyApplyFilter()[pri:6, instance:com.nagarro.automation.testSuite.LumaTestSuite@79079097]" started-at="2023-08-05T23:13:23 IST" name="VerifyApplyFilter" description="Verify the filter after applying filter for the bags under gear section" finished-at="2023-08-05T23:13:33 IST" duration-ms="9835" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyApplyFilter -->
+        <test-method is-config="true" signature="CreateTest(java.lang.reflect.Method)[pri:0, instance:com.nagarro.automation.testSuite.LumaTestSuite@79079097]" started-at="2023-08-05T23:13:23 IST" name="CreateTest" finished-at="2023-08-05T23:13:23 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.nagarro.automation.testSuite.LumaTestSuite.VerifyApplyFilter() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateTest -->
+        <test-method is-config="true" signature="AddResult(org.testng.ITestResult)[pri:0, instance:com.nagarro.automation.testSuite.LumaTestSuite@79079097]" started-at="2023-08-05T23:13:33 IST" name="AddResult" finished-at="2023-08-05T23:13:33 IST" duration-ms="370" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyApplyFilter status=SUCCESS method=LumaTestSuite.VerifyApplyFilter()[pri:6, instance:com.nagarro.automation.testSuite.LumaTestSuite@79079097] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddResult -->
+        <test-method is-config="true" signature="CreateTest(java.lang.reflect.Method)[pri:0, instance:com.nagarro.automation.testSuite.LumaTestSuite@79079097]" started-at="2023-08-05T23:13:33 IST" name="CreateTest" finished-at="2023-08-05T23:13:33 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.nagarro.automation.testSuite.LumaTestSuite.VerifyCreateAnAccountPage() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateTest -->
+        <test-method signature="VerifyCreateAnAccountPage()[pri:7, instance:com.nagarro.automation.testSuite.LumaTestSuite@79079097]" started-at="2023-08-05T23:13:33 IST" name="VerifyCreateAnAccountPage" description="Verify the registration functionality by creating the new user for the site" finished-at="2023-08-05T23:13:47 IST" duration-ms="14421" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Timed out after 10 seconds. Unable to locate the element]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Timed out after 10 seconds. Unable to locate the element
+at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:99)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
+at com.nagarro.automation.pages.CreateAnAccountPage.newsLettercheckbox(CreateAnAccountPage.java:88)
+at com.nagarro.automation.testCase.RegisterUserTestCase.registerUser(RegisterUserTestCase.java:73)
+at com.nagarro.automation.testCase.RegisterUserTestCase.RegistrationUserTC(RegisterUserTestCase.java:91)
+at com.nagarro.automation.testSuite.LumaTestSuite.VerifyCreateAnAccountPage(LumaTestSuite.java:94)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='is_subscribed']"}
+  (Session info: chrome=115.0.5790.111)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d13386ed896bf5f2dd6706c41c69536b, findElement {using=xpath, value=//input[@name='is_subscribed']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.111, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, goog:chromeOptions: {debuggerAddress: localhost:52918}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52918/devtoo..., se:cdpVersion: 115.0.5790.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d13386ed896bf5f2dd6706c41c69536b
+at jdk.internal.reflect.GeneratedConstructorAccessor50.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.AjaxElementLocator.access$001(AjaxElementLocator.java:39)
+at org.openqa.selenium.support.pagefactory.AjaxElementLocator$SlowLoadingElement.isLoaded(AjaxElementLocator.java:165)
+at org.openqa.selenium.support.ui.SlowLoadableComponent.get(SlowLoadableComponent.java:72)
+at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:95)
+... 38 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCreateAnAccountPage -->
+        <test-method is-config="true" signature="AddResult(org.testng.ITestResult)[pri:0, instance:com.nagarro.automation.testSuite.LumaTestSuite@79079097]" started-at="2023-08-05T23:13:47 IST" name="AddResult" finished-at="2023-08-05T23:13:48 IST" duration-ms="313" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyCreateAnAccountPage status=FAILURE method=LumaTestSuite.VerifyCreateAnAccountPage()[pri:7, instance:com.nagarro.automation.testSuite.LumaTestSuite@79079097] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddResult -->
+        <test-method is-config="true" signature="CreateTest(java.lang.reflect.Method)[pri:0, instance:com.nagarro.automation.testSuite.LumaTestSuite@79079097]" started-at="2023-08-05T23:13:48 IST" name="CreateTest" finished-at="2023-08-05T23:13:48 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.nagarro.automation.testSuite.LumaTestSuite.VerifyloginPage() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateTest -->
+        <test-method signature="VerifyloginPage()[pri:8, instance:com.nagarro.automation.testSuite.LumaTestSuite@79079097]" started-at="2023-08-05T23:13:48 IST" name="VerifyloginPage" description="Verify the login functionality using correct username and password" finished-at="2023-08-05T23:13:54 IST" duration-ms="6680" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at com.nagarro.automation.testCase.LoginTestCase.LoginTC(LoginTestCase.java:87)
+at com.nagarro.automation.testSuite.LumaTestSuite.VerifyloginPage(LumaTestSuite.java:103)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyloginPage -->
+        <test-method is-config="true" signature="AddResult(org.testng.ITestResult)[pri:0, instance:com.nagarro.automation.testSuite.LumaTestSuite@79079097]" started-at="2023-08-05T23:13:54 IST" name="AddResult" finished-at="2023-08-05T23:13:55 IST" duration-ms="255" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyloginPage status=FAILURE method=LumaTestSuite.VerifyloginPage()[pri:8, instance:com.nagarro.automation.testSuite.LumaTestSuite@79079097] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddResult -->
+        <test-method signature="VerifyAddtoCart()[pri:9, instance:com.nagarro.automation.testSuite.LumaTestSuite@79079097]" started-at="2023-08-05T23:13:55 IST" name="VerifyAddtoCart" description="Verify the add to cart functionality by search the item and add it to cart" finished-at="2023-08-05T23:14:00 IST" duration-ms="5414" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at com.nagarro.automation.testCase.LoginTestCase.LoginTC(LoginTestCase.java:87)
+at com.nagarro.automation.testCase.AddToCartTestCase.loginUser(AddToCartTestCase.java:41)
+at com.nagarro.automation.testCase.AddToCartTestCase.AddToCartTC(AddToCartTestCase.java:136)
+at com.nagarro.automation.testSuite.LumaTestSuite.VerifyAddtoCart(LumaTestSuite.java:112)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAddtoCart -->
+        <test-method is-config="true" signature="CreateTest(java.lang.reflect.Method)[pri:0, instance:com.nagarro.automation.testSuite.LumaTestSuite@79079097]" started-at="2023-08-05T23:13:55 IST" name="CreateTest" finished-at="2023-08-05T23:13:55 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.nagarro.automation.testSuite.LumaTestSuite.VerifyAddtoCart() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateTest -->
+        <test-method is-config="true" signature="AddResult(org.testng.ITestResult)[pri:0, instance:com.nagarro.automation.testSuite.LumaTestSuite@79079097]" started-at="2023-08-05T23:14:00 IST" name="AddResult" finished-at="2023-08-05T23:14:00 IST" duration-ms="249" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyAddtoCart status=FAILURE method=LumaTestSuite.VerifyAddtoCart()[pri:9, instance:com.nagarro.automation.testSuite.LumaTestSuite@79079097] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nagarro.automation.testSuite.LumaTestSuite@79079097]" started-at="2023-08-05T23:14:00 IST" name="tearDown" finished-at="2023-08-05T23:14:01 IST" duration-ms="795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.nagarro.automation.testSuite.LumaTestSuite@79079097]" started-at="2023-08-05T23:14:01 IST" name="afterSuite" finished-at="2023-08-05T23:14:02 IST" duration-ms="951" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.nagarro.automation.testSuite.LumaTestSuite -->
+    </test> <!-- lumaTest -->
+  </suite> <!-- LumaSuite -->
+</testng-results>

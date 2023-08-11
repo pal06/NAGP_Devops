@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-LumaSuite" class="navigator-link">
+              <span class="suite-name border-failed">LumaSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-LumaSuite" class="navigator-link ">
+                    <span>D:\Automation_Training\Palvika_3161759_SeleniumAutomation\NAGPSeleniumAutomationFramework\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-LumaSuite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-LumaSuite" class="navigator-link ">
+                    <span>4 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-LumaSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-LumaSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-LumaSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-LumaSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods, 3 failed,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-LumaSuite" class="hide-methods failed suite-LumaSuite"> (hide)</a> <!-- hide-methods failed suite-LumaSuite -->
+                      <a href="#" panel-name="suite-LumaSuite" class="show-methods failed suite-LumaSuite"> (show)</a> <!-- show-methods failed suite-LumaSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-LumaSuite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LumaSuite" title="com.nagarro.automation.testSuite.LumaTestSuite" class="method navigator-link" hash-for-method="VerifyAddtoCart">VerifyAddtoCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LumaSuite" title="com.nagarro.automation.testSuite.LumaTestSuite" class="method navigator-link" hash-for-method="VerifyCreateAnAccountPage">VerifyCreateAnAccountPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LumaSuite" title="com.nagarro.automation.testSuite.LumaTestSuite" class="method navigator-link" hash-for-method="VerifyloginPage">VerifyloginPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-LumaSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-LumaSuite" class="hide-methods passed suite-LumaSuite"> (hide)</a> <!-- hide-methods passed suite-LumaSuite -->
+                      <a href="#" panel-name="suite-LumaSuite" class="show-methods passed suite-LumaSuite"> (show)</a> <!-- show-methods passed suite-LumaSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-LumaSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LumaSuite" title="com.nagarro.automation.testSuite.LumaTestSuite" class="method navigator-link" hash-for-method="VerifyApplyFilter">VerifyApplyFilter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LumaSuite" title="com.nagarro.automation.testSuite.LumaTestSuite" class="method navigator-link" hash-for-method="VerifyLoginWithIncorrectCred">VerifyLoginWithIncorrectCred</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LumaSuite" title="com.nagarro.automation.testSuite.LumaTestSuite" class="method navigator-link" hash-for-method="VerifyLoginWithInvalidCred">VerifyLoginWithInvalidCred</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LumaSuite" title="com.nagarro.automation.testSuite.LumaTestSuite" class="method navigator-link" hash-for-method="VerifyLoginWithoutCredentials">VerifyLoginWithoutCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LumaSuite" title="com.nagarro.automation.testSuite.LumaTestSuite" class="method navigator-link" hash-for-method="VerifyRegistrationPageMandatoryfield">VerifyRegistrationPageMandatoryfield</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LumaSuite" title="com.nagarro.automation.testSuite.LumaTestSuite" class="method navigator-link" hash-for-method="VerifySearch">VerifySearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-LumaSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-LumaSuite" class="panel LumaSuite">
+          <div class="suite-LumaSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.nagarro.automation.testSuite.LumaTestSuite</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyAddtoCart">
+                  </a> <!-- VerifyAddtoCart -->
+                  <span class="method-name">VerifyAddtoCart</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.nagarro.automation.testCase.LoginTestCase.LoginTC(LoginTestCase.java:87)
+	at com.nagarro.automation.testCase.AddToCartTestCase.loginUser(AddToCartTestCase.java:41)
+	at com.nagarro.automation.testCase.AddToCartTestCase.AddToCartTC(AddToCartTestCase.java:136)
+	at com.nagarro.automation.testSuite.LumaTestSuite.VerifyAddtoCart(LumaTestSuite.java:112)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify the add to cart functionality by search the item and add it to cart)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyCreateAnAccountPage">
+                  </a> <!-- VerifyCreateAnAccountPage -->
+                  <span class="method-name">VerifyCreateAnAccountPage</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Timed out after 10 seconds. Unable to locate the element
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:99)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
+	at com.nagarro.automation.pages.CreateAnAccountPage.newsLettercheckbox(CreateAnAccountPage.java:88)
+	at com.nagarro.automation.testCase.RegisterUserTestCase.registerUser(RegisterUserTestCase.java:73)
+	at com.nagarro.automation.testCase.RegisterUserTestCase.RegistrationUserTC(RegisterUserTestCase.java:91)
+	at com.nagarro.automation.testSuite.LumaTestSuite.VerifyCreateAnAccountPage(LumaTestSuite.java:94)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@name=&apos;is_subscribed&apos;]&quot;}
+  (Session info: chrome=115.0.5790.111)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d13386ed896bf5f2dd6706c41c69536b, findElement {using=xpath, value=//input[@name=&apos;is_subscribed&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.111, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, goog:chromeOptions: {debuggerAddress: localhost:52918}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52918/devtoo..., se:cdpVersion: 115.0.5790.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d13386ed896bf5f2dd6706c41c69536b
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.access$001(AjaxElementLocator.java:39)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator$SlowLoadingElement.isLoaded(AjaxElementLocator.java:165)
+	at org.openqa.selenium.support.ui.SlowLoadableComponent.get(SlowLoadableComponent.java:72)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:95)
+	... 38 more
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify the registration functionality by creating the new user for the site)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyloginPage">
+                  </a> <!-- VerifyloginPage -->
+                  <span class="method-name">VerifyloginPage</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.nagarro.automation.testCase.LoginTestCase.LoginTC(LoginTestCase.java:87)
+	at com.nagarro.automation.testSuite.LumaTestSuite.VerifyloginPage(LumaTestSuite.java:103)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify the login functionality using correct username and password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LumaSuite-class-failed -->
+          <div class="suite-LumaSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nagarro.automation.testSuite.LumaTestSuite</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyApplyFilter">
+                  </a> <!-- VerifyApplyFilter -->
+                  <span class="method-name">VerifyApplyFilter</span>
+                  <em>
+(Verify the filter after applying filter for the bags under gear section)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyLoginWithIncorrectCred">
+                  </a> <!-- VerifyLoginWithIncorrectCred -->
+                  <span class="method-name">VerifyLoginWithIncorrectCred</span>
+                  <em>
+(Verify the login with incorrect credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyLoginWithInvalidCred">
+                  </a> <!-- VerifyLoginWithInvalidCred -->
+                  <span class="method-name">VerifyLoginWithInvalidCred</span>
+                  <em>
+(Verify the login with invalid credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyLoginWithoutCredentials">
+                  </a> <!-- VerifyLoginWithoutCredentials -->
+                  <span class="method-name">VerifyLoginWithoutCredentials</span>
+                  <em>
+(Verify the Mandatory fields of the login page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyRegistrationPageMandatoryfield">
+                  </a> <!-- VerifyRegistrationPageMandatoryfield -->
+                  <span class="method-name">VerifyRegistrationPageMandatoryfield</span>
+                  <em>
+(Verify the Mandatory fields of the Registration page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifySearch">
+                  </a> <!-- VerifySearch -->
+                  <span class="method-name">VerifySearch</span>
+                  <em>
+(Verify the search functionality by search the item)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LumaSuite-class-passed -->
+        </div> <!-- panel LumaSuite -->
+        <div panel-name="test-xml-LumaSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Automation_Training\Palvika_3161759_SeleniumAutomation\NAGPSeleniumAutomationFramework\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;LumaSuite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;lumaTest&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.nagarro.automation.testSuite.LumaTestSuite&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- lumaTest --&gt;
+&lt;/suite&gt; &lt;!-- LumaSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-LumaSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for LumaSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">lumaTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-LumaSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for LumaSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">AddtoCart</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">VerifyAddtoCart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Login</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">VerifyLoginWithIncorrectCred</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">VerifyLoginWithInvalidCred</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">VerifyLoginWithoutCredentials</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">VerifyloginPage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Register</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">VerifyCreateAnAccountPage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">VerifyRegistrationPageMandatoryfield</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Search</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">VerifyApplyFilter</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">VerifySearch</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-LumaSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for LumaSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_LumaSuite');
+function tableData_LumaSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'VerifyCreateAnAccountPage')
+data.setCell(0, 2, 'com.nagarro.automation.testSuite.LumaTestSuite')
+data.setCell(0, 3, 14421);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'VerifyApplyFilter')
+data.setCell(1, 2, 'com.nagarro.automation.testSuite.LumaTestSuite')
+data.setCell(1, 3, 9835);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'VerifyloginPage')
+data.setCell(2, 2, 'com.nagarro.automation.testSuite.LumaTestSuite')
+data.setCell(2, 3, 6680);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'VerifyAddtoCart')
+data.setCell(3, 2, 'com.nagarro.automation.testSuite.LumaTestSuite')
+data.setCell(3, 3, 5414);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'VerifySearch')
+data.setCell(4, 2, 'com.nagarro.automation.testSuite.LumaTestSuite')
+data.setCell(4, 3, 5327);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'VerifyLoginWithIncorrectCred')
+data.setCell(5, 2, 'com.nagarro.automation.testSuite.LumaTestSuite')
+data.setCell(5, 3, 4667);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'VerifyLoginWithInvalidCred')
+data.setCell(6, 2, 'com.nagarro.automation.testSuite.LumaTestSuite')
+data.setCell(6, 3, 2729);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'VerifyRegistrationPageMandatoryfield')
+data.setCell(7, 2, 'com.nagarro.automation.testSuite.LumaTestSuite')
+data.setCell(7, 3, 2592);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'VerifyLoginWithoutCredentials')
+data.setCell(8, 2, 'com.nagarro.automation.testSuite.LumaTestSuite')
+data.setCell(8, 3, 2518);
+window.suiteTableData['LumaSuite']= { tableData: data, tableDiv: 'times-div-LumaSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 54 seconds</span>
+              <div id="times-div-LumaSuite">
+              </div> <!-- times-div-LumaSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-LumaSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for LumaSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-LumaSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-LumaSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nagarro.automation.testSuite.LumaTestSuite</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">CreateHTMLReport</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">invokeBrowser</span>
+                <span class="method-start">536 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">CreateTest(public void com.nagarro.automation.testSuite.LumaTestSuite.VerifyLoginWithIncorrectCred())</span>
+                <span class="method-start">14039 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyLoginWithIncorrectCred</span>
+                <span class="method-start">14053 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AddResult([TestResult name=VerifyLoginWithIncorrectCred status=SUCCESS method=LumaTestSuite.VerifyLoginWithInc...)</span>
+                <span class="method-start">18722 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">VerifyLoginWithInvalidCred</span>
+                <span class="method-start">19171 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">CreateTest(public void com.nagarro.automation.testSuite.LumaTestSuite.VerifyLoginWithInvalidCred() throws java....)</span>
+                <span class="method-start">19171 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">AddResult([TestResult name=VerifyLoginWithInvalidCred status=SUCCESS method=LumaTestSuite.VerifyLoginWithInval...)</span>
+                <span class="method-start">21900 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">CreateTest(public void com.nagarro.automation.testSuite.LumaTestSuite.VerifyLoginWithoutCredentials())</span>
+                <span class="method-start">22242 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyLoginWithoutCredentials</span>
+                <span class="method-start">22251 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AddResult([TestResult name=VerifyLoginWithoutCredentials status=SUCCESS method=LumaTestSuite.VerifyLoginWithou...)</span>
+                <span class="method-start">24769 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">CreateTest(public void com.nagarro.automation.testSuite.LumaTestSuite.VerifyRegistrationPageMandatoryfield())</span>
+                <span class="method-start">25030 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyRegistrationPageMandatoryfield</span>
+                <span class="method-start">25030 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AddResult([TestResult name=VerifyRegistrationPageMandatoryfield status=SUCCESS method=LumaTestSuite.VerifyRegi...)</span>
+                <span class="method-start">27622 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">CreateTest(public void com.nagarro.automation.testSuite.LumaTestSuite.VerifySearch() throws java.io.IOException)</span>
+                <span class="method-start">27929 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifySearch</span>
+                <span class="method-start">27937 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AddResult([TestResult name=VerifySearch status=SUCCESS method=LumaTestSuite.VerifySearch()[pri:5, instance:com...)</span>
+                <span class="method-start">33268 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">VerifyApplyFilter</span>
+                <span class="method-start">33692 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">CreateTest(public void com.nagarro.automation.testSuite.LumaTestSuite.VerifyApplyFilter() throws java.io.IOExce...)</span>
+                <span class="method-start">33692 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">AddResult([TestResult name=VerifyApplyFilter status=SUCCESS method=LumaTestSuite.VerifyApplyFilter()[pri:6, in...)</span>
+                <span class="method-start">43527 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">CreateTest(public void com.nagarro.automation.testSuite.LumaTestSuite.VerifyCreateAnAccountPage() throws java.i...)</span>
+                <span class="method-start">43897 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">VerifyCreateAnAccountPage</span>
+                <span class="method-start">43900 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AddResult([TestResult name=VerifyCreateAnAccountPage status=FAILURE method=LumaTestSuite.VerifyCreateAnAccount...)</span>
+                <span class="method-start">58329 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">CreateTest(public void com.nagarro.automation.testSuite.LumaTestSuite.VerifyloginPage() throws java.io.IOExcept...)</span>
+                <span class="method-start">58643 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">VerifyloginPage</span>
+                <span class="method-start">58643 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AddResult([TestResult name=VerifyloginPage status=FAILURE method=LumaTestSuite.VerifyloginPage()[pri:8, instan...)</span>
+                <span class="method-start">65323 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">VerifyAddtoCart</span>
+                <span class="method-start">65578 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">CreateTest(public void com.nagarro.automation.testSuite.LumaTestSuite.VerifyAddtoCart() throws java.io.IOExcept...)</span>
+                <span class="method-start">65578 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">AddResult([TestResult name=VerifyAddtoCart status=FAILURE method=LumaTestSuite.VerifyAddtoCart()[pri:9, instan...)</span>
+                <span class="method-start">70992 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">71241 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">72148 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

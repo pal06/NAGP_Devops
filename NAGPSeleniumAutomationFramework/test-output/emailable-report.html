@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">LumaSuite</th></tr>
+<tr><td><a href="#t0">lumaTest</a></td><td class="num">7</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">71,575</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">LumaSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">lumaTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.nagarro.automation.testSuite.LumaTestSuite</td><td><a href="#m0">VerifyAddtoCart</a></td><td rowspan="1">1683042027227</td><td rowspan="1">7942</td></tr><tr class="failedeven"><td><a href="#m1">VerifyloginPage</a></td><td rowspan="1">1683042016718</td><td rowspan="1">10306</td></tr><tr><th colspan="4">lumaTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="7">com.nagarro.automation.testSuite.LumaTestSuite</td><td><a href="#m2">VerifyApplyFilter</a></td><td rowspan="1">1683041997284</td><td rowspan="1">6359</td></tr><tr class="passedeven"><td><a href="#m3">VerifyCreateAnAccountPage</a></td><td rowspan="1">1683042003964</td><td rowspan="1">12444</td></tr><tr class="passedeven"><td><a href="#m4">VerifyLoginWithIncorrectCred</a></td><td rowspan="1">1683041977084</td><td rowspan="1">4859</td></tr><tr class="passedeven"><td><a href="#m5">VerifyLoginWithInvalidCred</a></td><td rowspan="1">1683041982153</td><td rowspan="1">2691</td></tr><tr class="passedeven"><td><a href="#m6">VerifyLoginWithoutCredentials</a></td><td rowspan="1">1683041985007</td><td rowspan="1">2292</td></tr><tr class="passedeven"><td><a href="#m7">VerifyRegistrationPageMandatoryfield</a></td><td rowspan="1">1683041988384</td><td rowspan="1">5092</td></tr><tr class="passedeven"><td><a href="#m8">VerifySearch</a></td><td rowspan="1">1683041993658</td><td rowspan="1">3369</td></tr></tbody>
+</table>
+<h2>lumaTest</h2><h3 id="m0">com.nagarro.automation.testSuite.LumaTestSuite#VerifyAddtoCart</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at com.nagarro.automation.testCase.LoginTestCase.LoginTC(LoginTestCase.java:87)
+	at com.nagarro.automation.testCase.AddToCartTestCase.loginUser(AddToCartTestCase.java:41)
+	at com.nagarro.automation.testCase.AddToCartTestCase.AddToCartTC(AddToCartTestCase.java:136)
+	at com.nagarro.automation.testSuite.LumaTestSuite.VerifyAddtoCart(LumaTestSuite.java:112)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.nagarro.automation.testSuite.LumaTestSuite#VerifyloginPage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: Timed out after 10 seconds. Unable to locate the element
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:99)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy21.click(Unknown Source)
+	at com.nagarro.automation.pages.LandingPage.SignupCTAClick(LandingPage.java:44)
+	at com.nagarro.automation.testCase.LoginTestCase.OpenLoginpage(LoginTestCase.java:94)
+	at com.nagarro.automation.testCase.LoginTestCase.LoginTC(LoginTestCase.java:83)
+	at com.nagarro.automation.testSuite.LumaTestSuite.VerifyloginPage(LumaTestSuite.java:103)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;panel header&apos;]/ul[@class=&apos;header links&apos;]/li[2]/a&quot;}
+  (Session info: chrome=112.0.5615.138)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [14c72d631cbf550ee16e075f4abeb9c1, findElement {using=xpath, value=//div[@class=&apos;panel header&apos;]/ul[@class=&apos;header links&apos;]/li[2]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\palvika\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:51354}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51354/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 14c72d631cbf550ee16e075f4abeb9c1
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.access$001(AjaxElementLocator.java:39)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator$SlowLoadingElement.isLoaded(AjaxElementLocator.java:165)
+	at org.openqa.selenium.support.ui.SlowLoadableComponent.get(SlowLoadableComponent.java:72)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:95)
+	... 34 more
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.nagarro.automation.testSuite.LumaTestSuite#VerifyApplyFilter</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.nagarro.automation.testSuite.LumaTestSuite#VerifyCreateAnAccountPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.nagarro.automation.testSuite.LumaTestSuite#VerifyLoginWithIncorrectCred</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.nagarro.automation.testSuite.LumaTestSuite#VerifyLoginWithInvalidCred</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.nagarro.automation.testSuite.LumaTestSuite#VerifyLoginWithoutCredentials</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.nagarro.automation.testSuite.LumaTestSuite#VerifyRegistrationPageMandatoryfield</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.nagarro.automation.testSuite.LumaTestSuite#VerifySearch</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Luma Test Suite" verbose="1">
+  <test name="Luma Test">
+    <groups>
+      <run>
+        <include name="Search"/>
+        <exclude name="Register"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.nagarro.automation.testSuite.LumaTestSuite"/>
+    </classes>
+  </test>
+</suite>

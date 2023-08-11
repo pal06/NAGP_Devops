@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="LumaSuite">
+  <test thread-count="5" name="lumaTest">
+    <classes>
+      <class name="com.nagarro.automation.testSuite.LumaTestSuite"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- LumaSuite -->

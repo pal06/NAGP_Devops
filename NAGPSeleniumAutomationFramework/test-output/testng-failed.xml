@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [LumaSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="lumaTest(failed)">
+    <classes>
+      <class name="com.nagarro.automation.testSuite.LumaTestSuite">
+        <methods>
+          <include name="invokeBrowser"/>
+          <include name="AddResult"/>
+          <include name="CreateHTMLReport"/>
+          <include name="afterSuite"/>
+          <include name="tearDown"/>
+          <include name="VerifyloginPage"/>
+          <include name="CreateTest"/>
+          <include name="VerifyAddtoCart"/>
+        </methods>
+      </class> <!-- com.nagarro.automation.testSuite.LumaTestSuite -->
+    </classes>
+  </test> <!-- lumaTest(failed) -->
+</suite> <!-- Failed suite [LumaSuite] -->
