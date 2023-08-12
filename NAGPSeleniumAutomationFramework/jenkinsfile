@@ -4,7 +4,7 @@ pipeline {
         cron('0 20 * * *') // Run every night at 8 PM
     }
 	tools{
-		maven 'maven_home'
+		maven 'mvn_home'
 	}
     
     stages {
