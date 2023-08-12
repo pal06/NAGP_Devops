@@ -33,11 +33,12 @@ pipeline {
         
         stage('Build and Test') {
             steps {
-                // Navigate to the project directory
-                bat 'cd NAGP_Devops/NAGPSeleniumAutomationFramework'
-                
-                // Run Maven build and tests
-                bat 'mvn clean test'
+                script {
+                   //going to diectory
+		bat 'cd NAGP_Devops/NAGPSeleniumAutomationFramework'
+		// execute the build
+		bat 'mvn clean test'
+                }
             }
         }
     }
