@@ -7,13 +7,22 @@ pipeline {
 		maven 'mvn_home'
 	}
     
-    stages {
-	stage('Clean'){
-	   steps{
-		//clean the directory
-		bat 'rmdir /s /Q NAGP_Devops'
-	   }
-	}	
+   stages {
+        stage('Clean Folder') {
+            steps {
+                script {
+                    def folderPath = 'NAGP_Devops'
+
+                    if (fileExists(folderPath)) {
+                        bat "rmdir /S /Q \"${folderPath}\""
+                        echo "Folder deleted."
+                    } else {
+                        echo "Folder does not exist."
+                    }
+                }
+            }
+        }
+    }
         stage('Checkout') {
             steps {
                 // Checkout your source code from GitHub
