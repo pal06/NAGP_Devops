@@ -8,6 +8,12 @@ pipeline {
 	}
     
     stages {
+	stage('Clean'){
+	   steps{
+		//clean the directory
+		rmdir /s NAGP_Devops
+	   }
+	}	
         stage('Checkout') {
             steps {
                 // Checkout your source code from GitHub
