@@ -1,0 +1,35 @@
+pipeline {
+    agent any
+	  triggers {
+        cron('0 20 * * *') // Run every night at 8 PM
+    }
+    
+    stages {
+        stage('Checkout') {
+            steps {
+                // Checkout your source code from GitHub
+                bat 'git clone https://github.com/pal06/NAGP_Devops'
+            }
+        }
+        
+        stage('Build and Test') {
+            steps {
+                // Navigate to the project directory
+                bat 'cd NAGP_Devops/NAGPSeleniumAutomationFramework'
+                
+                // Run Maven build and tests
+                bat 'mvn clean test'
+            }
+        }
+    }
+    
+    post {
+        always {
+            // Archive the generated test reports
+            archiveArtifacts artifacts: 'First_repo/palvika/project/target/surefire-reports/*.xml', allowEmptyArchive: true
+            
+            // Publish JUnit test results
+            junit 'First_repo/palvika/project/target/surefire-reports/*.xml'
+        }
+    }
+}
