@@ -3,6 +3,9 @@ pipeline {
 	triggers {
         cron('0 20 * * *') // Run every night at 8 PM
     }
+	tools{
+		maven 'mvn_home'
+	}
     
     stages {
 	stage('clean folder') {
