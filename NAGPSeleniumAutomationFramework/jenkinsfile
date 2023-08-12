@@ -11,7 +11,7 @@ pipeline {
 	stage('Clean'){
 	   steps{
 		//clean the directory
-		rmdir /s NAGP_Devops
+		bat 'rmdir /s NAGP_Devops'
 	   }
 	}	
         stage('Checkout') {
