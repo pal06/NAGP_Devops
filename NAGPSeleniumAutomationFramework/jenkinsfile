@@ -3,7 +3,7 @@ pipeline {
 	  triggers {
         cron('0 20 * * *') // Run every night at 8 PM
     }
-	tool{
+	tools{
 		maven 'maven_home'
 	}
     
