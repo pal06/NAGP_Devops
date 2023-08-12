@@ -7,7 +7,7 @@ pipeline {
 		maven 'mvn_home'
 	}
     
-   stages {
+   
         stage('Clean Folder') {
             steps {
                 script {
@@ -22,7 +22,7 @@ pipeline {
                 }
             }
         }
-    }
+    
         stage('Checkout') {
             steps {
                 // Checkout your source code from GitHub
