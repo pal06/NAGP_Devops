@@ -1,20 +1,10 @@
 pipeline {
     agent any
-	  triggers {
+	triggers {
         cron('0 20 * * *') // Run every night at 8 PM
     }
-	tools{
-		maven 'mvn_home'
-	}
-
-	 stages {
-	stage('Clean'){
-	   steps{
-		//clean the directory
-		bat 'rmdir /s /Q NAGP_Devops'
-	   }
-	}	
     
+    stages {
         stage('Checkout') {
             steps {
                 // Checkout your source code from GitHub
@@ -31,14 +21,15 @@ pipeline {
                 bat 'mvn clean test'
             }
         }
+    }
     
     post {
         always {
             // Archive the generated test reports
-            archiveArtifacts artifacts: 'First_repo/palvika/project/target/surefire-reports/*.xml', allowEmptyArchive: true
+            archiveArtifacts artifacts: 'NAGP_Devops/palvika/project/target/surefire-reports/*.xml', allowEmptyArchive: true
             
             // Publish JUnit test results
-            junit 'First_repo/palvika/project/target/surefire-reports/*.xml'
+            junit 'NAGP_Devops/palvika/project/target/surefire-reports/*.xml'
         }
     }
 }
