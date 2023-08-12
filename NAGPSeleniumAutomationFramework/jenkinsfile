@@ -27,7 +27,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout your source code from GitHub
-                bat 'git clone https://github.com/pal06/NAGP_Devops'
+                bat 'git checkout'
             }
         }
         
