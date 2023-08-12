@@ -3,6 +3,9 @@ pipeline {
 	  triggers {
         cron('0 20 * * *') // Run every night at 8 PM
     }
+	tool{
+		maven 'maven_home'
+	}
     
     stages {
         stage('Checkout') {
